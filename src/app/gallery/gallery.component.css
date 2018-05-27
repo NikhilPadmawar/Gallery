@@ -1,0 +1,68 @@
+.tn{
+    margin: 6px;
+ 
+}
+ul{
+    padding: 0ex;
+    width:1200px;
+    margin: 20px auto;
+}
+
+li{
+    display: inline;
+}
+.menu{
+    margin-left: 6cm;
+}
+.imageMenu
+{
+    margin-left: 1cm;
+}
+
+
+.hovereffect {
+    width:80%;
+    height:80%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+    }
+    
+    .hovereffect .overlay {
+    width:80%;
+    height:80%;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:rgba(0,0,0,0.5);
+    -webkit-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out
+    }
+    
+    .hovereffect img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+    }
+    
+
+    .hovereffect:hover img {
+    -ms-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    }
+    
+    .hovereffect:hover .overlay {
+    opacity:1;
+    filter:alpha(opacity=100);
+    }
+    
+
+    
+
+  
